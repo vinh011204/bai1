@@ -1,0 +1,21 @@
+p{
+    color: yellow;
+    font-size: 40px;
+  }
+  header{
+    background: rgb(119, 0, 128);
+  }
+.text {
+    text-align: center;
+}
+.text-02 {
+    color: red;
+    font-size: 40px;
+
+}
+.text-02{
+    color:#369B9E;
+}
+.text-01{
+    color: #369B9E;
+}

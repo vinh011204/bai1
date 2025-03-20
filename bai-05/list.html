@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <style>
+        .ul{
+            /* list-style-type: lower-greek; */
+            list-style-position: inherit;
+        }
+    </style> -->
+    
+    <!-- <ul class="ul">
+        <li>Các động thái trên diễn ra trong bối cảnh giới chức cấp cao Mỹ và Nga chuẩn bị tiến hành đàm phán tại Saudi Arabia trong ngày 18/2. Đây là cuộc thảo luận trực tiếp cấp cao nhất giữa hai nước trong nhiều năm qua, diễn ra sau khi Tổng thống Mỹ Donald Trump có hai cuộc điện đàm riêng rẽ với những người đồng cấp Vladimir Putin và Volodymyr Zelensky của Nga và Ukraine.</li>
+        <li>muc2</li>
+        <li>muc3</li>
+    </ul> -->
+
+    <style>
+        th,td{
+            font-size: 30px;
+
+        }
+        table{
+            border-collapse:collapse;
+        }
+       table,th,td{
+        border: 1px solid rgb(43, 0, 255);
+      
+       }
+      th,td{
+        padding: 10px;
+       }
+       th{
+      /* background-color: rgb(159, 135, 127);
+      color: white; */
+      color: rgb(0, 255, 64);
+
+
+       }
+       .content{
+        background: #0060BE;
+    padding: 60px 30px;
+    border-radius: 8px;
+    position: relative;
+   
+    
+       }
+       .content::before{
+        content: "";    
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: #00000059;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 20px
+        
+       }
+       .content::after{
+        content: "";
+            display: block;
+    width: 210px;
+    height: 210px;
+    background: #00000059;
+    border-radius: 50%;
+    position: absolute;
+    right: -50px;
+    bottom: -50px
+
+       }
+       .content .inner-content{
+        color: white;
+        
+       position: relative;
+       z-index: 1;
+
+
+       }
+       .content .inner-content::first-letter{
+        font-size: 40px;
+
+       }
+       .content .inner-content::first-line{
+        text-transform: uppercase;
+
+       }
+       header {
+    background-color: #e65100; /* Màu cam */
+    padding: 10px 0;
+    text-align: center;
+}
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.con{
+    height: 200px; /* Phần nội dung phía dưới */
+    background-color: #ddd; /* Màu xám giống trong ảnh */
+}
+    </style>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="con"></div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>hang 1 cot 1 </th>
+                <th>hang 1 cot 2 </th>
+                <th>hang 1 cot 3 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>hang 2 cot 1</td>
+                <td>hang 2 cot 2</td>
+                <td>hang 2 cot 3</td>
+            </tr>
+            <tr>
+                <td>hang 3 cot 1</td>
+                <td>hang 3 cot 2</td>
+                <td>hang 3 cot 2</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="content">
+        <div class="inner-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, voluptates? Nisi debitis nulla, autem, impedit consequuntur cum adipisci eveniet, in numquam sed corrupti. Molestiae tenetur possimus perferendis repellendus excepturi saepe.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, voluptates? Nisi debitis nulla, autem, impedit consequuntur cum adipisci eveniet, in numquam sed corrupti. Molestiae tenetur possimus perferendis repellendus excepturi saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, voluptates? Nisi debitis nulla, autem, impedit consequuntur cum adipisci eveniet, in numquam sed corrupti. Molestiae tenetur possimus perferendis repellendus excepturi saepe.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, voluptates? Nisi debitis nulla, autem, impedit consequuntur cum adipisci eveniet, in numquam sed corrupti. Molestiae tenetur possimus perferendis repellendus excepturi saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, voluptates? Nisi debitis nulla, autem, impedit consequuntur cum adipisci eveniet, in numquam sed corrupti. Molestiae tenetur possimus perferendis repellendus excepturi saepe.
+        </div>
+    </div>
+  
+      
+</body>
+</html>

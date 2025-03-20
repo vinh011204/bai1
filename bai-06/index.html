@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <style>
+        .parent{
+            border: 5px solid red;
+        }
+        .elemen-chil{
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            padding: 20px;
+        }
+        .elemen-1{
+            background: yellow;
+            height: 100px;
+            float: left;
+
+        }
+        .elemen-2{
+            background: rgb(255, 0, 43);
+            height: 150px;
+            float: right;
+            /* clear: left; */
+
+        }
+        .elemen-3{
+            background: rgb(168, 168, 62);
+            height: 200px;
+            float: right;
+            /* clear: both; */
+
+        }
+        .clear-both{
+            clear:  both;
+        }
+
+    </style>
+    <div class="parent">
+    <div class="elemen-chil elemen-1">phan tu a</div>
+    <div class="elemen-chil elemen-2">phan tu b</div>
+    <div class="elemen-chil elemen-3">phan tu c</div>
+    <div class="clear-both"></div>
+    </div>
+   -->
+    <style>
+     
+        .box{
+
+            background: #CCCCCC;
+            text-align: center;         
+            padding: 20px;
+            margin: 5px;
+            font-family: arial;
+            font-size: 20px;
+            font-weight: 600;   
+                
+        }
+    /* .main {
+    display: flex;
+    justify-content: space-between; */
+    
+        .sidebar-1{
+            width: 25%;
+            float: left;
+      
+        }
+
+    .article{
+        width: calc(50% - 30px);
+        float: left;
+          
+      }
+        .sidebar-2{
+            width: 16%;
+            float: right; 
+        }
+        .clearfix{
+            clear: both;
+        }
+ 
+      
+
+    </style>
+    <div class="box header">
+        header
+    </div>
+    <div class="main">
+        <div class=" box sidebar-1">
+            sidebar1
+        </div>
+        <div class=" box article">
+            article 
+        </div>
+        <div class=" box sidebar-2">
+            sidebar2
+        </div>
+        <div class="clearfix"> </div>
+      
+    </div>
+    <div class=" box footer">footer</div>
+
+
+</body>
+</html>
